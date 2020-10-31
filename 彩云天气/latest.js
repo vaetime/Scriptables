@@ -35,7 +35,7 @@ class Im3xWidget {
 
   async getData () {
     let gps = await Location.current()
-    let api = `https://api.caiyunapp.com/v2.5/TAkhjf8d1nlSlspN/${gps["longitude"]},${gps["latitude"]}/weather.json?alert=true`
+    let api = `https://api.caiyunapp.com/v2.5/8w4tovFkF8lbGsUb/${gps["longitude"]},${gps["latitude"]}/weather.json?alert=true`
     let req = new Request(api)
     let res = await req.loadJSON()
     return res

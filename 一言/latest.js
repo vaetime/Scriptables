@@ -3,7 +3,7 @@
 // 项目地址：https://github.com/im3x/Scriptables
 //
 
-mclass Im3xWidget {
+class Im3xWidget {
   /**
    * 初始化
    * @param arg 外部传递过来的参数
